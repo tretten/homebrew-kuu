@@ -1,6 +1,6 @@
 cask "kuu" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "0.8.8"
+  sha256 "bfccb789f69e638adcef378740aaf1e0e1530c75f9642a85bb7ebef058905fed"
 
   url "https://github.com/tretten/kuu/releases/download/v#{version}/Kuu-macos.zip"
   name "Kuu"
