@@ -9,7 +9,8 @@ cask "kuu" do
 
   app "Kuu.app"
 
-  postflight do
-    system_command "xattr", args: ["-dr", "com.apple.quarantine", "#{appdir}/Kuu.app"]
+  postflight_steps do
+    run "/usr/bin/xattr",
+        args: ["-dr", "com.apple.quarantine", "{{appdir}}/Kuu.app"]
   end
 end
