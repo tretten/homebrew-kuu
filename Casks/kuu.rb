@@ -4,8 +4,10 @@ cask "kuu" do
 
   url "https://github.com/tretten/kuu/releases/download/v#{version}/Kuu-#{version}.zip"
   name "Kuu"
-  desc "Minimal native macOS terminal"
+  desc "Minimal native terminal"
   homepage "https://github.com/tretten/kuu"
+
+  depends_on :macos
 
   app "Kuu.app"
 
