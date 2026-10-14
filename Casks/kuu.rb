@@ -1,6 +1,6 @@
 cask "kuu" do
-  version "0.8.23"
-  sha256 "bedf4cc7f93752a0fff0f91df0320828dd04edd57430ee3ad9cae23be4862361"
+  version "0.8.24"
+  sha256 "8584b98a9d409950ec810d315e8407bb0882b9f56dbeed1ed17c076defe84ff0"
 
   url "https://github.com/tretten/kuu/releases/download/v#{version}/Kuu-#{version}.zip"
   name "Kuu"
